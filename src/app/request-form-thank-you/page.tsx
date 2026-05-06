@@ -8,7 +8,7 @@ export default function RequestFormThankYouPage() {
       <Hero
         eyebrow="Thank you"
         title="Your service request has been received"
-        description="This page preserves the current thank-you URL for the request form flow."
+        description="Thank you for your request. We will contact you shortly to discuss availability and next steps."
       />
       <Section title="We will contact you shortly">
         <Link href="/request-form" className="inline-flex rounded-full bg-sky-700 px-5 py-3 text-sm font-medium text-white hover:bg-sky-800">

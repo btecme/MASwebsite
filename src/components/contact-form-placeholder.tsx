@@ -9,8 +9,8 @@ export function ContactFormPlaceholder({
 }: ContactFormPlaceholderProps) {
   return (
     <div className="rounded-[2rem] border border-slate-200 bg-white p-6 shadow-[0_24px_80px_rgba(15,23,42,0.08)] sm:p-8">
-      <div className="mb-8 rounded-[1.5rem] border border-sky-100 bg-sky-50 px-5 py-4 text-sm text-sky-950">
-        <strong>Next step:</strong> this form is ready to be wired to Resend + Turnstile so inquiries feel more trustworthy and more reliable than the old WordPress plugin flow.
+      <div className="mb-8 rounded-[1.5rem] border border-amber-200 bg-amber-50 px-5 py-4 text-sm text-amber-950">
+        <strong>Please note:</strong> online form submission is being finalized. For immediate help, please call the office.
       </div>
       <form className="grid gap-5 md:grid-cols-2">
         <input type="hidden" name="formName" value={formName} />
@@ -36,7 +36,7 @@ export function ContactFormPlaceholder({
         </label>
         <div className="md:col-span-2 flex flex-col gap-4 border-t border-slate-200 pt-5 sm:flex-row sm:items-center sm:justify-between">
           <p className="max-w-xl text-sm leading-6 text-slate-500">
-            Turnstile protection, server-side validation, and delivery routing will be added before launch.
+            Share your details here as a preview, or call now for the fastest response.
           </p>
           <button
             type="button"

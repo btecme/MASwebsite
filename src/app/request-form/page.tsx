@@ -8,13 +8,13 @@ export default function RequestFormPage() {
       <Hero
         eyebrow="Request Service"
         title="Tell us what kind of storage you need"
-        description="This form is becoming the main intake path for new storage requests, so it should feel clear, fast, and reassuring from the first click."
+        description="Tell us what you need and we can help you find the right storage option for your timeline, space needs, and budget."
         highlights={["Portable storage", "Self storage", "Vehicle storage", "Refrigerated rentals"]}
         mediaSrc="/media/facility-row.png"
       />
       <Section
         title="Request service"
-        intro="The final version will send structured submissions through Resend with Turnstile protection and a proper thank-you flow, but the layout and tone can already feel more customer-ready now."
+        intro="Use this page to start the conversation about portable storage, self storage, refrigerated rentals, or vehicle storage availability."
       >
         <ContactFormPlaceholder formName="request-service" submitLabel="Request service" />
       </Section>

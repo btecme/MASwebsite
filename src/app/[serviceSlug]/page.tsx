@@ -59,7 +59,7 @@ export default async function ServicePage({
             <div className="rounded-[2rem] border border-slate-200 bg-slate-950 p-6 text-white shadow-[0_22px_70px_rgba(15,23,42,0.18)]">
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-sky-200">Need availability?</p>
               <p className="mt-3 text-base leading-7 text-slate-300">
-                Call the office or use the request form and the site can route customers into a much cleaner lead flow than the current generic scaffold.
+                Call the office or use the request form to check availability, pricing, and the best fit for your storage needs.
               </p>
               <div className="mt-5 flex flex-wrap gap-3">
                 <a href={company.phoneHref} className="rounded-full bg-sky-400 px-4 py-2 text-sm font-semibold text-slate-950">

@@ -136,7 +136,7 @@ export default function Home() {
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-sky-100">Next smart moves</p>
               <ul className="mt-4 space-y-3 text-sm leading-7 text-slate-200">
                 <li>Lead with stronger service photography across key pages</li>
-                <li>Replace scaffold copy on contact and request flows</li>
+                <li>Finish wiring the contact and request flows</li>
                 <li>Bring over real review content once it is extracted cleanly</li>
                 <li>Keep the payment route simple while making the sales path feel higher trust</li>
               </ul>
