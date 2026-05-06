@@ -117,26 +117,9 @@ export function Hero({
                 )
               ) : (
                 <div className="flex h-full items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-sky-950 p-10 text-center text-slate-300">
-                  <p className="max-w-sm text-lg leading-8">Secure, local storage solutions with a stronger digital storefront.</p>
+                  <p className="max-w-sm text-lg leading-8">Secure, local storage solutions for Bradley and the surrounding area.</p>
                 </div>
               )}
-            </div>
-
-            <div className="grid gap-4 border-t border-white/10 bg-slate-950/90 p-6 sm:grid-cols-2">
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.24em] text-sky-200">Why it feels stronger</p>
-                <p className="mt-2 text-sm leading-6 text-slate-300">
-                  Real facility visuals, practical copy, and clear calls to action beat the usual storage-site template every time.
-                </p>
-              </div>
-              <div className="rounded-2xl border border-white/10 bg-white/5 p-4">
-                <p className="text-sm font-semibold text-white">Fast paths for customers</p>
-                <ul className="mt-3 space-y-2 text-sm text-slate-300">
-                  <li>Request service</li>
-                  <li>Call the local office</li>
-                  <li>Make a payment online</li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>
