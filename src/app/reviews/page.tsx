@@ -6,11 +6,15 @@ export default function ReviewsPage() {
   return (
     <main>
       <Hero
-        eyebrow="Reviews"
-        title="Customer trust belongs on a page that is easy to maintain"
-        description="This route preserves the existing reviews URL and gives us a clean place to migrate structured testimonials."
+        eyebrow="Reviews & Trust"
+        title="Trust signals should feel earned, not pasted in"
+        description="This page is being reshaped to support cleaner, more persuasive review presentation once the current testimonial content is migrated over in a structured way."
+        mediaSrc="/media/self-storage.jpg"
       />
-      <Section title="Customer reviews" intro="Placeholder testimonials are in place until the real review content is migrated.">
+      <Section
+        title="What the site should already be communicating"
+        intro="Even before formal review migration, the brand can feel more trustworthy by looking established, local, and specific about what it does well."
+      >
         <TestimonialGrid />
       </Section>
     </main>

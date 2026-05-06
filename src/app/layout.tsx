@@ -1,7 +1,18 @@
 import type { Metadata } from "next";
+import { Oswald, Outfit } from "next/font/google";
 import "./globals.css";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  variable: "--font-body",
+});
+
+const oswald = Oswald({
+  subsets: ["latin"],
+  variable: "--font-display",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -19,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="bg-slate-50 text-slate-900 antialiased">
+      <body className={`${outfit.variable} ${oswald.variable} bg-slate-50 text-slate-900 antialiased`}>
         <SiteHeader />
         {children}
         <SiteFooter />

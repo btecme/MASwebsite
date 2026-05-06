@@ -1,48 +1,61 @@
 import Link from "next/link";
-import { company } from "@/lib/site";
+import { company, navLinks } from "@/lib/site";
 
 export function SiteFooter() {
   return (
-    <footer className="border-t border-black/10 bg-slate-50">
-      <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 md:grid-cols-3">
+    <footer className="bg-slate-950 text-slate-200">
+      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.2fr_0.8fr_0.9fr] lg:px-8">
         <div>
-          <h2 className="text-lg font-semibold text-slate-900">{company.name}</h2>
-          <p className="mt-3 text-sm leading-6 text-slate-600">
-            Portable storage, self storage, refrigerated options, and vehicle storage for {company.serviceArea}.
+          <div className="flex items-center gap-4">
+            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/10 text-lg font-semibold text-white">MAS</div>
+            <div>
+              <h2 className="text-xl font-semibold text-white">{company.name}</h2>
+              <p className="text-sm text-slate-400">Storage that feels local, secure, and easy to reach.</p>
+            </div>
+          </div>
+          <p className="mt-5 max-w-xl text-sm leading-7 text-slate-400">
+            Portable storage, self storage, refrigerated rentals, and vehicle storage for {company.serviceArea}.
           </p>
+          <p className="mt-4 text-sm text-slate-300">{company.address}</p>
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Contact</h3>
-          <ul className="mt-3 space-y-2 text-sm text-slate-700">
-            <li>
-              <a href={company.phoneHref} className="hover:text-sky-700">
-                {company.phoneDisplay}
-              </a>
-            </li>
-            <li>
-              <Link href="/contact" className="hover:text-sky-700">
-                Contact page
-              </Link>
-            </li>
-            <li>
-              <Link href="/request-form" className="hover:text-sky-700">
-                Request service
-              </Link>
-            </li>
+          <h3 className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-200">Quick Links</h3>
+          <ul className="mt-4 space-y-3 text-sm text-slate-300">
+            {navLinks.slice(0, 6).map((link) => (
+              <li key={link.href}>
+                <Link href={link.href} className="transition hover:text-white">
+                  {link.label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">Payments</h3>
-          <p className="mt-3 text-sm leading-6 text-slate-600">
-            Online payments are currently routed to a hosted external checkout for a simpler and safer v1 launch.
-          </p>
+          <h3 className="text-sm font-semibold uppercase tracking-[0.24em] text-sky-200">Contact & Payments</h3>
+          <ul className="mt-4 space-y-3 text-sm text-slate-300">
+            <li>
+              <a href={company.phoneHref} className="transition hover:text-white">
+                {company.phoneDisplay}
+              </a>
+            </li>
+            <li>
+              <Link href="/contact" className="transition hover:text-white">
+                Contact page
+              </Link>
+            </li>
+            <li>
+              <Link href="/request-form" className="transition hover:text-white">
+                Request service
+              </Link>
+            </li>
+          </ul>
           <a
             href={company.paymentUrl}
             target="_blank"
             rel="noreferrer"
-            className="mt-4 inline-flex rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-slate-700"
+            className="mt-6 inline-flex rounded-full bg-sky-400 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-sky-300"
           >
             Pay Online
           </a>
