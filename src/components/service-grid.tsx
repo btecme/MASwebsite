@@ -32,7 +32,7 @@ export function ServiceGrid() {
           </div>
 
           <div className="p-6">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Built for real use</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-700">Service overview</p>
             <p className="mt-3 text-base leading-7 text-slate-600">{service.intro}</p>
             <ul className="mt-5 space-y-3 text-sm text-slate-700">
               {service.bullets.map((bullet) => (

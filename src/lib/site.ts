@@ -28,13 +28,13 @@ export const servicePages: ServicePage[] = [
     eyebrow: "Storage delivered where you need it",
     hero: "Portable storage that works on your schedule",
     intro:
-      "Delivery and pickup are available for mobile storage units, giving homeowners, contractors, and businesses a cleaner way to store without rushing the job.",
+      "Keep a storage unit at your home, business, or jobsite and load it on your timeline. Delivery and pickup are available for portable storage throughout the Bradley area.",
     detail:
-      "Use portable storage at your place or keep it at the MAS facility. It is a practical fit for moves, renovations, jobsite overflow, and seasonal storage when you need flexibility without a lot of friction.",
+      "Portable storage is a practical option for moving, remodeling, seasonal cleanup, and commercial overflow. Keep the unit on your property or ask about storage at the MAS facility.",
     bullets: [
       "Portable units ranging from 5×8 to 8×20",
       "Delivery and pickup available",
-      "Useful for moving, remodeling, and commercial overflow",
+      "Helpful for moves, remodeling, and jobsite storage",
     ],
     image: "/media/portable-storage.jpg",
   },
@@ -44,13 +44,13 @@ export const servicePages: ServicePage[] = [
     eyebrow: "Fast access to everyday storage",
     hero: "Affordable self storage with room to scale",
     intro:
-      "Michigan Avenue Storage offers over 800 units for general self storage and mobile container storage, giving local customers plenty of options instead of a one-size-fits-all pitch.",
+      "Michigan Avenue Storage offers a wide range of unit sizes so you can rent the space you need without paying for more than you will use.",
     detail:
-      "From seasonal items to business inventory, the facility is positioned for real local demand. The live site highlights unit sizes from 8×16 to 10×30 along with secure access and low prices.",
+      "Whether you are clearing out a garage, storing for a move, or making room for business inventory, MAS offers convenient access, straightforward pricing, and unit options that fit everyday storage needs.",
     bullets: [
       "Over 800 storage options available",
       "Unit sizes from 8×16 to 10×30",
-      "Great for decluttering, moving, and business storage",
+      "Good fit for household, moving, and business storage",
     ],
     image: "/media/self-storage.jpg",
   },
@@ -60,13 +60,13 @@ export const servicePages: ServicePage[] = [
     eyebrow: "Protected space for bigger investments",
     hero: "Heated, secure vehicle storage for boats, autos, and RVs",
     intro:
-      "The live site positions MAS as a safe place for vehicles, trailers, and recreational equipment, with heated indoor options and monitoring built into the message.",
+      "Store your RV, boat, trailer, car, or commercial vehicle in a secure local facility with room for the equipment that does not fit at home.",
     detail:
-      "Customers can store boats, jet skis, motorcycles, commercial vehicles, autos, RVs, and campers in one location instead of juggling multiple off-season parking solutions.",
+      "MAS offers indoor heated options for select vehicle storage needs along with space for trailers, campers, motorcycles, and other seasonal equipment.",
     bullets: [
       "Heated indoor storage options",
       "Fits boats, RVs, campers, trailers, and commercial vehicles",
-      "24-hour monitored facility messaging on the live site",
+      "A secure local facility with monitored access",
     ],
     image: "/media/facility-row.png",
   },
@@ -76,13 +76,13 @@ export const servicePages: ServicePage[] = [
     eyebrow: "Specialty cold storage when timing matters",
     hero: "Portable cooler and freezer rentals for events and emergencies",
     intro:
-      "MAS already has a more specialized offer than most local storage competitors. The refrigerated line gives the brand something distinctive and useful to lead with.",
+      "When products need to stay cold, MAS offers portable refrigerated and freezer storage for events, seasonal demand, and urgent overflow situations.",
     detail:
-      "The live site calls out adjustable refrigerated and freezer temperatures, pallet-width access, and use cases ranging from catering and racing events to hospitals and emergency response needs.",
+      "These units are useful for catering, florists, medical needs, race weekends, truck traffic, and emergency response. Adjustable cold and freezer settings make the service flexible for a range of situations.",
     bullets: [
       "Adjustable freezer or refrigerated temperatures",
       "Useful for events, catering, florists, hospitals, and truck stops",
-      "Portable cold storage with straightforward access",
+      "Portable cold storage with easy access",
     ],
     image: "/media/home-tour.mp4",
   },
@@ -92,9 +92,9 @@ export const servicePages: ServicePage[] = [
     eyebrow: "Utility-first storage for business use",
     hero: "Commercial container solutions for jobsites and operations",
     intro:
-      "This page can speak directly to contractors, property teams, and commercial customers who need dependable container access without a lot of sales fluff.",
+      "Businesses and contractors can use commercial containers for tools, materials, records, equipment, and overflow that needs to stay organized and close at hand.",
     detail:
-      "The opportunity here is simple: position MAS as a practical local partner for secure onsite storage, jobsite staging, equipment overflow, and operational flexibility.",
+      "Commercial container service is a strong fit for property teams, facilities, and construction work that needs secure onsite storage and dependable local scheduling.",
     bullets: [
       "Container options for commercial workflows",
       "Straightforward local scheduling and support",
@@ -118,7 +118,7 @@ export const navLinks = [
 
 export const trustStats = [
   { value: "1996", label: "serving Bradley area customers" },
-  { value: "800+", label: "storage unit options called out on the live site" },
+  { value: "800+", label: "storage options available" },
   { value: "5×8 to 10×30", label: "portable and self-storage size range" },
   { value: "Local", label: "real phone support and on-site service" },
 ];
@@ -126,33 +126,33 @@ export const trustStats = [
 export const trustPoints = [
   {
     title: "Security that feels visible",
-    description: "The current MAS messaging emphasizes security cameras, gated access, and monitored storage so the site should look trustworthy from the first screen.",
+    description: "Security cameras, gated access, and monitored storage help customers feel confident about leaving their belongings here.",
   },
   {
     title: "More than one kind of storage",
-    description: "Portable, self, refrigerated, and vehicle storage give MAS a broader offer than a typical generic storage property site.",
+    description: "Portable, self, refrigerated, and vehicle storage give MAS more flexibility than a typical single-service storage location.",
   },
   {
     title: "Built for actual local use cases",
-    description: "Moving, remodeling, jobsite overflow, event cold storage, and off-season vehicle parking are concrete reasons people call a storage company.",
+    description: "From moving and remodeling to event cold storage and off-season vehicle parking, the service mix matches real local needs.",
   },
 ];
 
 export const reviewHighlights = [
   {
     title: "Local and established",
-    description: "Michigan Avenue Storage has been serving the area since 1996 and should feel grounded, not like a disposable lead-gen brand.",
+    description: "Michigan Avenue Storage has served the area since 1996 with a strong local presence and an easy-to-reach team.",
   },
   {
-    title: "Practical pricing message",
-    description: "The live site repeatedly leads with low prices and straightforward service, which matters in a competitive storage market.",
+    title: "Straightforward service",
+    description: "Customers want clear answers on availability, pricing, and access. Simple communication matters in a storage decision.",
   },
   {
     title: "Wide service mix",
-    description: "Portable storage, self storage, refrigerated rentals, and RV or boat storage create stronger differentiation than a plain unit-rental pitch.",
+    description: "Portable storage, self storage, refrigerated rentals, and RV or boat storage cover more needs than a basic unit-rental facility.",
   },
   {
-    title: "Real facility positioning",
-    description: "This brand works best when it feels like a real place with real equipment, not a generic marketing template with stock copy pasted over it.",
+    title: "A real local facility",
+    description: "Customers should be able to see the facility, understand the services, and feel like they are dealing with a real local business.",
   },
 ];

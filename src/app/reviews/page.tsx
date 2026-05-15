@@ -7,13 +7,13 @@ export default function ReviewsPage() {
     <main>
       <Hero
         eyebrow="Reviews & Trust"
-        title="Trust signals should feel earned, not pasted in"
-        description="See the qualities that matter most when choosing a storage company: local service, secure options, fair pricing, and clear communication."
+        title="Why customers choose Michigan Avenue Storage"
+        description="Local service, secure storage, fair pricing, and clear communication all matter when you are choosing where to store your belongings."
         mediaSrc="/media/self-storage.jpg"
       />
       <Section
-        title="What the site should already be communicating"
-        intro="Trust starts with a company looking established, local, and specific about what it offers. These are the signals MAS should keep leading with."
+        title="What matters most in a storage company"
+        intro="Customers want a facility that feels secure, easy to work with, and local enough to trust. These are the qualities MAS brings forward."
       >
         <TestimonialGrid />
       </Section>
