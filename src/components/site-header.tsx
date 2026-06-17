@@ -24,9 +24,9 @@ export function SiteHeader() {
         <div className="flex items-center">
           <Link href="/">
             <img 
-              src="/media/Michigan_Avenue_Storage_Final_logo_2.jpg" 
+              src="/media/MAS-LogoLarge.png" 
               alt="Michigan Avenue Storage" 
-              className="h-16 w-auto"
+              className="h-32 w-auto"
             />
           </Link>
         </div>

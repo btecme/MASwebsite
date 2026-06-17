@@ -7,7 +7,13 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.2fr_0.8fr_0.9fr] lg:px-8">
         <div>
           <div className="flex items-center gap-4">
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/10 text-lg font-semibold text-white">MAS</div>
+            <div className="flex shrink-0 bg-white p-2 rounded-xl">
+              <img 
+                src="/media/MAS-LogoLarge.png" 
+                alt="Michigan Avenue Storage" 
+                className="h-12 w-auto"
+              />
+            </div>
             <div>
               <h2 className="text-xl font-semibold text-white">{company.name}</h2>
               <p className="text-sm text-slate-400">Storage that feels local, secure, and easy to reach.</p>
