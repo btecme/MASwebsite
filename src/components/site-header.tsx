@@ -21,14 +21,14 @@ export function SiteHeader() {
       </div>
 
       <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-4 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
-        <div className="flex items-center gap-4">
-          <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-slate-950 text-lg font-semibold text-white shadow-[0_10px_30px_rgba(15,23,42,0.18)]">MAS</div>
-          <div>
-            <Link href="/" className="text-xl font-semibold tracking-tight text-slate-950">
-              {company.name}
-            </Link>
-            <p className="text-sm text-slate-500">Portable, self, refrigerated, and vehicle storage</p>
-          </div>
+        <div className="flex items-center">
+          <Link href="/">
+            <img 
+              src="/media/Michigan_Avenue_Storage_Final_logo_2.jpg" 
+              alt="Michigan Avenue Storage" 
+              className="h-16 w-auto"
+            />
+          </Link>
         </div>
 
         <div className="flex flex-wrap gap-3">
