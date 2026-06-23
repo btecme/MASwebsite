@@ -58,13 +58,13 @@ export const servicePages: ServicePage[] = [
     slug: "rv-boat-vehicle-storage-bradley",
     title: "RV, Boat, & Vehicle Storage",
     eyebrow: "Protected space for bigger investments",
-    hero: "Heated, secure vehicle storage for boats, autos, and RVs",
+    hero: "Secure vehicle storage for boats, autos, and RVs",
     intro:
       "Store your RV, boat, trailer, car, or commercial vehicle in a secure local facility with room for the equipment that does not fit at home.",
     detail:
-      "MAS offers indoor heated options for select vehicle storage needs along with space for trailers, campers, motorcycles, and other seasonal equipment.",
+      "MAS offers indoor options for select vehicle storage needs along with space for trailers, campers, motorcycles, and other seasonal equipment.",
     bullets: [
-      "Heated indoor storage options",
+      "Indoor storage options",
       "Fits boats, RVs, campers, trailers, and commercial vehicles",
       "A secure local facility with monitored access",
     ],
