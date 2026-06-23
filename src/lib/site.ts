@@ -62,7 +62,7 @@ export const servicePages: ServicePage[] = [
     intro:
       "Store your RV, boat, trailer, car, or commercial vehicle in a secure local facility with room for the equipment that does not fit at home.",
     detail:
-      "MAS offers indoor options for select vehicle storage needs along with space for trailers, campers, motorcycles, and other seasonal equipment.",
+      "We offer indoor options for select vehicle storage needs along with space for trailers, campers, motorcycles, and other seasonal equipment.",
     bullets: [
       "Indoor storage options",
       "Fits boats, RVs, campers, trailers, and commercial vehicles",
