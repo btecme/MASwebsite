@@ -57,14 +57,12 @@ export function SiteFooter() {
               </Link>
             </li>
           </ul>
-          <a
-            href={company.paymentUrl}
-            target="_blank"
-            rel="noreferrer"
+          <Link
+            href="/pay-online"
             className="mt-6 inline-flex rounded-full bg-sky-400 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-sky-300"
           >
             Pay Online
-          </a>
+          </Link>
         </div>
       </div>
     </footer>

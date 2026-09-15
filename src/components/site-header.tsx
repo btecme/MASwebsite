@@ -38,14 +38,12 @@ export function SiteHeader() {
           >
             Request Service
           </Link>
-          <a
-            href={company.paymentUrl}
-            target="_blank"
-            rel="noreferrer"
+          <Link
+            href="/pay-online"
             className="rounded-full bg-sky-500 px-4 py-2 text-sm font-semibold text-slate-950 transition hover:bg-sky-400"
           >
             Make Payment
-          </a>
+          </Link>
         </div>
       </div>
 
